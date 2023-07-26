@@ -1,17 +1,21 @@
-
-.searchbar{
+.searchbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
     padding: 20px;
+    background-color: #ffffff;
     border-bottom: 1px solid #2a3562;
     box-shadow: 5px 7px 10px -6px rgb(112, 121, 153);
 }
 
-.form{
+.form {
     display: flex;
-   justify-content: center;
-   gap: 20px;
+    justify-content: center;
+    gap: 20px;
 }
 
-.input{
+.input {
     font-size: 24px;
     width: 800px;
     padding: 5px;
@@ -23,11 +27,11 @@
 }
 
 .input:hover,
-.input:focus{
+.input:focus {
     border-color: #697dd0;
 }
 
-.button{
+.button {
     cursor: pointer;
     border: 2px solid #2a3562;
     border-radius: 10px;
@@ -40,7 +44,7 @@
 }
 
 .button:hover,
-.button:focus{
+.button:focus {
     background-color: #cad3f8;
     color: #2a3562;
 }
