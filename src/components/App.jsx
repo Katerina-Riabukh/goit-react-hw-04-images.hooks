@@ -79,11 +79,7 @@ export const App = () => {
     <div>
       <Searchbar onSubmit={handleFormSubmit} />
       <section className={css.section}>
-        {showModal && <Modal closeModal={toggleModal} imageSrc={imageSrc}>
-
-        </Modal>
-        }
-
+        {showModal && <Modal closeModal={toggleModal} imageSrc={imageSrc} />}
         {isLoader && <Loader />}
         {isEmpty && <p>There is no images...</p>}
         {array && <ImageGallery array={array} openModal={toggleModal} handelFillModal={handelFillModal} />}
