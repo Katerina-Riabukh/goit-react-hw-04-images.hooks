@@ -46,7 +46,7 @@ export const App = () => {
   };
 
   const toggleModal = () => {
-    setShowModal(!showModal)
+    setShowModal(prev => !prev)
   };
 
   const handelFillModal = (i, largeImageURL) => {

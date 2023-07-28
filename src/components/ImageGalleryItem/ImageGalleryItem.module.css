@@ -1,7 +1,8 @@
-.galleryItem{
+.galleryItem {
     display: block;
     list-style: none;
     width: 300px;
     height: 230px;
     flex-basis: calc((100% - 45px) /4);
+    cursor: pointer;
 }
